@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import FibonacciVerificador from "./components/FibonacciVerificador";
+import Quest1 from "./pages/Quest1";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 color="red">TESTE - TARGET SISTEMAS</h1>
+      <h2>Vitor Souza Diamantino - 38999708560</h2>
+      <h2>
+        Linkedin -{" "}
+        <a href="https://www.linkedin.com/in/vitordiamantino/">Linkedin</a>
+      </h2>
+      <h2>
+        Link deste repositorio no GitHub -{" "}
+        <a href="https://www.linkedin.com/in/vitordiamantino/">Linkedin</a>
+      </h2>
+
+      <Quest1 />
     </div>
   );
 }
