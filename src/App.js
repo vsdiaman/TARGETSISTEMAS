@@ -13,7 +13,7 @@ function App() {
       </h2>
       <h2>
         Link deste repositorio no GitHub -{" "}
-        <a href="https://www.linkedin.com/in/vitordiamantino/">Linkedin</a>
+        <a href="https://github.com/vsdiaman/TARGETSISTEMAS">Linkedin</a>
       </h2>
 
       <Quest1 />
